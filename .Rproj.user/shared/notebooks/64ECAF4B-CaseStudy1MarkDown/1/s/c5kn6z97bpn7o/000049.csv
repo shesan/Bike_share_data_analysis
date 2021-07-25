@@ -1,0 +1,9 @@
+"0","bike_prepared_2 %>%"
+"0","  group_by(member_casual, day_of_week_char) %>%"
+"0","  summarise(number_of_rides = n(), average_duration = mean(ride_length_min)) %>%"
+"0","  arrange(member_casual, day_of_week_char) %>%"
+"0","  ggplot(aes(x = day_of_week_char, y = number_of_rides, fill = member_casual)) + "
+"0","  geom_col(position = ""dodge"") +"
+"0","  labs(title = ""Number of Rides per Weekday"")"
+"1","`summarise()` has grouped output by 'member_casual'. You can override using the `.groups` argument.
+"

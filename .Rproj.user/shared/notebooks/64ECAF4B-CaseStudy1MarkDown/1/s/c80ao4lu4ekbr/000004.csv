@@ -1,0 +1,2 @@
+"0","#bike_prepared_2 %>% write.csv(""./Data/Cleaned_Bike_200204_202106.csv"")"
+"0","bike_prepared_2 <- read.csv(""./Data/Cleaned_Bike_200204_202106.csv"")"

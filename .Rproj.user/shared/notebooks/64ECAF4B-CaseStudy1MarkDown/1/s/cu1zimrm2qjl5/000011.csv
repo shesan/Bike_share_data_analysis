@@ -1,0 +1,10 @@
+"0","bike_prepared_2 %>%"
+"0","  group_by(member_casual, start_year_month) %>%"
+"0","  summarize(number_of_riders = n()) %>%"
+"0","  ggplot(aes(x = start_year_month, y = number_of_riders, fill = member_casual)) +"
+"0","  geom_col(position = ""dodge"") + "
+"0","  facet_wrap(~ member_casual) +"
+"0","  labs(title = ""Number of riders through 2020-04 to 2021-06"") +"
+"0","  theme(axis.text.x = element_text(angle = 90, vjust = 0.5))"
+"1","`summarise()` has grouped output by 'member_casual'. You can override using the `.groups` argument.
+"

@@ -1,0 +1,2 @@
+"0","bike_files <- list.files(path = ""./Data/"", recursive = TRUE, full.name = TRUE, pattern = ""*-divvy-tripdata.csv"")"
+"0","bike_merged <- do.call(rbind, lapply(bike_files, read.csv))"

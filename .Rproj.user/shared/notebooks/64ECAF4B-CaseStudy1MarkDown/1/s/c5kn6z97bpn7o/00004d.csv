@@ -1,0 +1,8 @@
+"0","#Number of rides on weekend (Saturday, Sunday)"
+"0","bike_prepared_2 %>%"
+"0","  group_by(member_casual, day_of_week_char) %>%"
+"0","  summarise(number_of_rides = n(), average_duration = mean(ride_length_min)) %>%"
+"0","  subset(., day_of_week_char != ""Monday"" & day_of_week_char != ""Tuesday"" & day_of_week_char != ""Wednesday"" & day_of_week_char != ""Thursday"" & day_of_week_char != ""Friday"") %>%"
+"0","  summarise(sum(number_of_rides))"
+"1","`summarise()` has grouped output by 'member_casual'. You can override using the `.groups` argument.
+"
