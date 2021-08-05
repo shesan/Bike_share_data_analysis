@@ -1,7 +1,0 @@
-"0","bike_prepared %>%"
-"0","  write.csv(""Cleaned_Bike_200204_202106"")"
-"2","Warning in as.POSIXlt.POSIXct(x, tz) :"
-"2","
- "
-"2"," unknown timezone '%Y-%m-%d %H:%M:%S'
-"

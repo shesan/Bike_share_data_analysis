@@ -1,3 +1,0 @@
-"0","bike_prepared$started_at <- as.POSIXct(bike_prepared$started_at, format = ""%Y-%m-%d %H:%M"")"
-"0","bike_prepared$ended_at <- as.POSIXct(bike_prepared$ended_at, format = ""%Y-%m-%d %H:%M"")"
-"0",""

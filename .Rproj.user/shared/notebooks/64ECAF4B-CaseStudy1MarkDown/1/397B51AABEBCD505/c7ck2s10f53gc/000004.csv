@@ -1,6 +1,0 @@
-"0","bike_prepared <- bike_prepared %>%"
-"0","  mutate(ride_length_sec = as.numeric(bike_prepared$ended_at - bike_prepared$started_at)) %>%"
-"0","  mutate(ride_length_min = as.numeric(bike_prepared$ended_at - bike_prepared$started_at)/60) %>%"
-"0","  mutate(day_of_week_char = weekdays(bike_prepared$started_at)) %>%"
-"0","  mutate(day_of_week_num = wday((bike_prepared$started_at))) %>%"
-"0","  mutate(start_hour = hour(bike_prepared$started_at))"

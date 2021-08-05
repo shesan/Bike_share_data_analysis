@@ -1,4 +1,0 @@
-"0","bike_prepared$day_of_week_char <- ordered(bike_prepared$day_of_week_char, levels=c(""Sunday"", ""Monday"", ""Tuesday"", ""Wednesday"", ""Thursday"", ""Friday"", ""Saturday""))"
-"2","Error in factor(x, ..., ordered = TRUE) : 
-  object 'bike_prepared' not found
-"

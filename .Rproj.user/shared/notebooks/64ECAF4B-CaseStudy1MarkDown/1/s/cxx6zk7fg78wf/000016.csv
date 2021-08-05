@@ -1,4 +1,0 @@
-"0","bike_prepared_2 %>% "
-"0","  ggplot(aes(x = member_casual, fill = member_casual)) + "
-"0","  geom_bar() +"
-"0","  labs(title = ""Casual & Member Count"")"

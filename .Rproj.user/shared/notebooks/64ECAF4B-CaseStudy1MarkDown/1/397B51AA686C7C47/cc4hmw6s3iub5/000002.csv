@@ -1,5 +1,0 @@
-"0","bike_prepared <- bike_prepared %>%"
-"0","  mutate(ride_length_sec = difftime(bike_prepared$ended_at,bike_prepared$started_at)) %>%"
-"0","  mutate(ride_length_min = difftime(bike_prepared$ended_at,bike_prepared$started_at, units = ""mins"")) %>%"
-"0","  mutate(day_of_week_char = weekdays(bike_prepared$started_at)) %>%"
-"0","  ordered(day_of_week_char, levels(""Sunday"", ""Monday"", ""Tuesday"", ""Wednesday"", ""Thursday"", ""Friday"", ""Saturday""))"

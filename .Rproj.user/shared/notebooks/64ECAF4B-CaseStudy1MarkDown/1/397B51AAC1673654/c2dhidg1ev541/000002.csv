@@ -1,6 +1,0 @@
-"0","bike_files <- list.files(path = ""./Data/"", recursive = TRUE, full.name = TRUE)"
-"0",""
-"0","bike_merged <- do.call(rbind, lapply(bike_files, read.csv))"
-"2","Error in rbind(deparse.level, ...) : 
-  numbers of columns of arguments do not match
-"

@@ -1,7 +1,0 @@
-"0","bike_prepared_2 <- bike_prepared %>% "
-"0","  filter(ride_length_sec > 0)"
-"0","print((paste(nrow(bike_prepared) - nrow(bike_prepared_2), ""Rows Removed"")))"
-"1","[1]"
-"1"," ""49382 Rows Removed"""
-"1","
-"

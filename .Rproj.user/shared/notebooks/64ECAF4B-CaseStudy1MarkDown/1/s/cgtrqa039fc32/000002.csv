@@ -1,7 +1,0 @@
-"0","bike_prepared_2 %>%"
-"0","  group_by(member_casual, rideable_type, ) %>%"
-"0","  summarize(number_of_riders = n()) %>%"
-"0","  ggplot(aes(x = rideable_type, y = number_of_riders, fill = member_casual)) + "
-"0","  geom_col(position = ""dodge"") "
-"1","`summarise()` has grouped output by 'member_casual'. You can override using the `.groups` argument.
-"

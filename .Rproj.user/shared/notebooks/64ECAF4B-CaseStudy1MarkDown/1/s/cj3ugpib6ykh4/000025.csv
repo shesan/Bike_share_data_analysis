@@ -1,2 +1,0 @@
-"0","setNames(aggregate(bike_prepared_2$ride_length_min ~ bike_prepared_2$member_casual, FUN = max),"
-"0","         c(""member/casual"", ""ride_len_minute_max""))"

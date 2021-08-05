@@ -1,4 +1,0 @@
-"0","bike_prepared_2 %>%"
-"0","  group_by(start_year_month) %>%"
-"0","  summarize(number_of_riders = n()) %>%"
-"0","  arrange(number_of_riders)"

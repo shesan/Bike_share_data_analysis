@@ -1,7 +1,0 @@
-"0","bike_files <- list.files(path = ""./Data/"", recursive = TRUE, full.name = TRUE, pattern = ""*-divvy-tripdata.csv"")"
-"0","bike_merged <- do.call(rbind, lapply(bike_files, read.csv))"
-"0","print((paste(nrow(bike_merged), ""Rows Total"")))"
-"1","[1]"
-"1"," ""5088206 Rows Total"""
-"1","
-"
